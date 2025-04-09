@@ -95,12 +95,7 @@ h1 {
     margin-bottom: 30px;
   }
 
-  .code-container {
-    max-width: 100%;
-    padding: 20px;
-    margin-bottom: 40px;
-
-  }
+ 
 
   .code-block {
     font-size: 1.2em;
@@ -162,7 +157,10 @@ h1 {
     .hint {
       font-size: 0.9em;
     }
-    .code-conteiner{
-      max-width: 250px;
+      .code-container {
+    max-width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+
   }
   }
