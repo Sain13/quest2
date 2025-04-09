@@ -161,4 +161,7 @@ h1 {
     .hint {
       font-size: 0.9em;
     }
+    .code-conteiner{
+      max-width: 350px;
+  }
   }
