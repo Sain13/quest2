@@ -30,7 +30,7 @@ h1 {
 .subtext {
   font-size: 1.1em;
   color: #888;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .task-text {
@@ -105,16 +105,16 @@ h1 {
 
 @media (max-width: 480px) {
   h1 {
-    font-size: 1.8em;
-    margin-top: 30px;
+    font-size: 1.4em;
+    margin-bottom: 10px;
   }
 
   .subtext {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   .task-text {
-    font-size: 1.3em;
+    font-size: 1.1em;
     margin-bottom: 20px;
   }
 
