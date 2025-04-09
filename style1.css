@@ -5,6 +5,7 @@ html, body {
   background-color: #000;
   font-family: Arial, sans-serif;
   color: #f0f0f0;
+    user-select: none;
   overflow: hidden;
 }
 
@@ -91,7 +92,7 @@ h1 {
 
   .key {
     height: 35px;
-    font-size: 15px;
+    font-size: 17px;
   }
 
   .hint {
