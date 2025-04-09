@@ -118,6 +118,8 @@ h1 {
   }
 
   .code-container {
+    width: 90%;
+  max-width: 350px;
     padding: 15px;
     margin-bottom: 30px;
   }
