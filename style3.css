@@ -9,7 +9,7 @@ html, body {
    }
  
    .soderzh {
- @@ -19,6 +22,11 @@
+ 
      font-size: 2em;
      margin-bottom: 20px;
    }
@@ -21,7 +21,6 @@ html, body {
  
    .description {
      font-size: 1.2em;
- @@ -50,8 +58,9 @@
  
    .hint {
      font-size: 1.2em;
@@ -32,7 +31,7 @@ html, body {
      text-align: left;
      font-weight: bold;
    }
- @@ -64,7 +73,11 @@
+ 
      .description {
        font-size: 1em;
      }
@@ -44,8 +43,7 @@ html, body {
    }
      .code-item {
        font-size: 1.2em;
-     }
- @@ -82,13 +95,17 @@
+ 
      .description {
        font-size: 0.9em;
      }
