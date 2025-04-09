@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="emblem.jpg" type="image/jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest №2</title>
+    <link rel="stylesheet" href="style2.css">
+
+ </head>
+ <body>
+       <div class="soderzh">
+         <h1>Поздравляю с прохождением первого этапа</h1>
+  
+         <p class="task-text">Сможешь ли ты решить и эту задачку?</p>
+  
+  
+         <div class="code-container">
+         <pre class="code-block">
+ <span class="keyword">num</span> = (<span class="number">200</span> + <span class="number">20</span>) - <span class="number">6</span> + <span class="number">214</span> // <span class="number">2</span> - <span class="number">107</span>
+ <span class="keyword">word</span> = <span class="string">"кабинет"</span>
+ 
+ <span class="function">print</span>(<span class="keyword">num</span>, <span class="keyword">word</span>)
+           </pre>
+ 
+     </body>
+     </html>
+     
+ 
+ </body>
+ </html>
