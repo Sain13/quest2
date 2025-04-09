@@ -5,6 +5,8 @@ html, body {
   height: 100%;
   background-color: #0a0a0a;
   color: #f0f0f0;
+    user-select: none;
+  overflow: hidden;
 }
 
 .soderzh {
@@ -12,118 +14,90 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 50px 20px;
-  box-sizing: border-box;
-  min-height: 100vh;
+  padding: 20px;
   text-align: center;
-  overflow: auto;
+  height: 100%;
 }
 
 h1 {
-  font-size: 2.5em;
-  margin-top: 50px;
+  font-size: 2em;
   margin-bottom: 20px;
-  font-weight: bold;
 }
 
-.subtext {
-  font-size: 1.1em;
-  color: #888;
-  margin-bottom: 30px;
-}
-
-.task-text {
-  font-size: 1.7em;
-  margin-bottom: 40px;
-}
+ 
 
 .code-container {
-  width: 100%;
-  max-width: 900px;
+  margin-top: 10px;
   background-color: #1e1e1e;
-  padding: 25px;
-  border-radius: 12px;
-  overflow-x: auto;
-  text-align: left;
-  box-shadow: inset 4px 0 0 #333, inset -4px 0 0 #333;
-  margin-bottom: 60px;
+  padding: 20px;
+  border-radius: 8px;
+  display: inline-block;
 }
 
 .code-block {
   font-family: 'Courier New', monospace;
-  font-size: 1.3em;
+  font-size: 1.5em;
   color: #dcdcdc;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  margin: 20px 0;
-  line-height: 1.6;
 }
 
-.keyword {
-  color: #4FC3F7;
+.code-item {
+  background-color: #333;
+  padding: 8px 12px;
+  border-radius: 4px;
+  color: #dcdcdc;
+  text-decoration: none;
+  font-size: 1.2em;
+  margin: 5px;
 }
 
-.number {
-  color: #A5D6A7;
+.hint {
+  font-size: 1.2em;
+  color: #dcdcdc;
+  margin-left: 20px;
+  margin-top: 40px;  
+  text-align: left;
+  font-weight: bold;
 }
 
-.string {
-  color: #FFAB91;
-}
-
-.function {
-  color: #FFF59D;
+p {
+  font-size: 1.5em;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 2em;
-    margin-top: 40px;
+    font-size: 1.5em;
   }
 
-  .subtext {
-    font-size: 1.1em;
-  }
+ 
 
-  .task-text {
-    font-size: 1.4em;
-    margin-bottom: 30px;
-  }
-
-  .code-container {
-    max-width: 100%;
-    padding: 20px;
-    margin-bottom: 40px;
-  }
-
-  .code-block {
+  .code-item {
     font-size: 1.2em;
-    margin: 15px 0;
+  }
+
+  .hint {
+    font-size: 1em;
+    margin-top: 35px;
   }
 }
 
 @media (max-width: 480px) {
   h1 {
-    font-size: 1.8em;
-    margin-top: 30px;
+    font-size: 1.3em;
   }
 
-  .subtext {
+ 
+
+  .code-item {
     font-size: 1em;
   }
 
-  .task-text {
-    font-size: 1.3em;
-    margin-bottom: 20px;
+  .hint {
+    font-size: 0.9em;
+    margin-top: 30px;
   }
-
-  .code-container {
-    padding: 15px;
-    margin-bottom: 30px;
+  p {
+    font-size: 0.9em;
+ 
   }
-
-  .code-block {
-    font-size: 1.1em;
-    margin: 20px 0;
-  }
 }
