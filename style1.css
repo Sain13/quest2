@@ -27,7 +27,7 @@ html, body {
   
   .keyboard {
     display: grid;
-    grid-template-columns: repeat(10, 40px);
+    grid-template-columns: repeat(11, 40px);
     gap: 5px;
     justify-content: center;
     margin-bottom: 20px;  
@@ -108,7 +108,7 @@ html, body {
     }
   
     .keyboard {
-      grid-template-columns: repeat(4, 50px);
+      grid-template-columns: repeat(3, 50px);
     }
   
     .key {
